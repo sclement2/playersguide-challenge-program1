@@ -6,7 +6,14 @@ namespace dotnetcore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int var1 = 0;
+            string sayThis = "Hello World!";
+            SayHello(sayThis);
+        }
+
+        static void SayHello(string sayThis)
+        {
+            Console.WriteLine(sayThis);
         }
     }
 }
