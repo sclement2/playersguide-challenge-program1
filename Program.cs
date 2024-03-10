@@ -9,6 +9,7 @@ namespace dotnetcore
             int var1 = 0;
             string sayThis = "Hello World!";
             SayHello(sayThis);
+            Console.WriteLine(var1);
         }
 
         static void SayHello(string sayThis)
